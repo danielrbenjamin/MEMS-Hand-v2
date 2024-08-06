@@ -1,7 +1,5 @@
 # Check for pause file
 if (Test-Path -Path "C:\Users\danie\Documents\Documents\Education\UBC\Miscellaneous\ECs\MEMS\Fenrir Hand v1\pause.watchman") {
-    Write-Host "Paused. No commit performed."
-    Read-Host "Press Enter to continue..."
     exit
 }
 
